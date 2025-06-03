@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../../style/UsersTable.css";
+import "../../style/usersTable/UsersTable.css";
 
 const users = [
   { name: "Олена Іваненко", email: "olena.ivanenko@example.com", city: "Київ" },

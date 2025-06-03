@@ -8,6 +8,10 @@ h1 {
   margin-bottom: 50px;
 }
 
+button {
+  cursor: pointer;
+}
+
 .errorText {
   color: rgb(168, 55, 55);
   font-size: 25px;
