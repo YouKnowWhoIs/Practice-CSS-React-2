@@ -1,11 +1,26 @@
 body {
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--c);
+  background-color: var(--back-c);
+}
+
+.dark {
+  --back-c: #242424;
+  --back-c-btn: #424242;
+  --c: rgba(255, 255, 255, 0.87);
+  --c-btn: #fff;
+  --c-bor: #fff;
+}
+
+.light {
+  --back-c: #fff;
+  --back-c-btn: #dadada;
+  --c: #242424;
+  --c-btn: #242424;
+  --c-bor: #242424;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 button {
@@ -15,4 +30,13 @@ button {
 .errorText {
   color: rgb(168, 55, 55);
   font-size: 25px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }

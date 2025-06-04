@@ -8,11 +8,11 @@
 }
 
 .conteinerAccordion button {
-  color: #fff;
+  color: var(--c-btn);
   border: 0;
   border-radius: 10px;
   padding: 15px 10px;
-  background-color: #424242;
+  background-color: var(--back-c-btn);
 }
 
 .conteinerAccordion h2 {

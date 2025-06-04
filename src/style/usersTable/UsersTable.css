@@ -8,7 +8,7 @@
 
 .conteinerTable th,
 td {
-  border: 1px solid #fff;
+  border: 1px solid var(--c-bor);
   padding: 10px 20px;
 }
 
