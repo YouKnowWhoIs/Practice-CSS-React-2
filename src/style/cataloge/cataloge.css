@@ -1,0 +1,31 @@
+.conteinerCatalog {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.catalogText {
+  font-size: xx-large;
+}
+
+.conteinerCatalogList {
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 20px;
+}
+
+.conteinercatalogItems {
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

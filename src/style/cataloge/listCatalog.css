@@ -1,0 +1,22 @@
+.catalogItem {
+  list-style: none;
+  border: 2px solid var(--c-bor);
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+}
+
+.catalogItem div {
+  height: 150px;
+  padding-bottom: 20px;
+}
+
+.catalogItem button {
+  padding: 8px 16px;
+  border: 2px solid var(--c-bor);
+  border-radius: 8px;
+  background-color: var(--c-btn-2);
+  color: var(--c);
+  font-size: larger;
+  float: right;
+}

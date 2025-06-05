@@ -7,16 +7,18 @@ body {
   --back-c: #242424;
   --back-c-btn: #424242;
   --c: rgba(255, 255, 255, 0.87);
-  --c-btn: #fff;
-  --c-bor: #fff;
+  --c-btn: rgba(255, 255, 255, 0.87);
+  --c-bor: rgba(255, 255, 255, 0.87);
+  --c-btn-2: rgb(45, 45, 104);
 }
 
 .light {
-  --back-c: #fff;
+  --back-c: rgba(255, 255, 255, 0.87);
   --back-c-btn: #dadada;
   --c: #242424;
   --c-btn: #242424;
   --c-bor: #242424;
+  --c-btn-2: rgb(162, 197, 236);
 }
 
 h1 {
