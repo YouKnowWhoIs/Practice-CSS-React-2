@@ -1,0 +1,53 @@
+.conteinerAutoTimer {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 200px;
+  padding: 20px;
+  border: 3px solid var(--c-bor);
+  box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.textItems {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textItems h3 {
+  margin: 0;
+}
+
+.textItems p {
+  font-size: 20px;
+}
+
+.btnItems {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btnItems button {
+  padding: 6px 12px;
+  font-size: large;
+}
+
+.btnPause {
+  border: 2px solid var(--c-bor);
+  border-radius: 6px;
+  background-color: rgb(248, 245, 106);
+}
+
+.btnStart {
+  border: 2px solid var(--c-bor);
+  border-radius: 6px;
+  background-color: rgb(88, 230, 159);
+}
+
+.btnClear {
+  border: 2px solid var(--c-bor);
+  border-radius: 6px;
+  background-color: rgb(180, 68, 68);
+  color: rgba(255, 255, 255, 0.87);
+}
