@@ -32,6 +32,7 @@ button {
 .errorText {
   color: rgb(168, 55, 55);
   font-size: 25px;
+  margin: 0;
 }
 
 .title {
