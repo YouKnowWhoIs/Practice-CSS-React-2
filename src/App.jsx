@@ -3,6 +3,7 @@ import Accordion from "./component/accordion/Accordion";
 import AutoTimer from "./component/autoTimer/AutoTimer";
 import Cataloge from "./component/cataloge/Cataloge";
 import MyForm from "./component/myForm/MyForm";
+import Pagination from "./component/pagination/Pagination";
 import Theme from "./component/theme/Theme";
 import UsersTable from "./component/usersTable/UsersTable";
 
@@ -18,6 +19,7 @@ function App() {
       <Cataloge />
       <AutoTimer />
       <MyForm />
+      <Pagination />
     </>
   );
 }
